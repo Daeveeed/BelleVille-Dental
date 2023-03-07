@@ -88,6 +88,198 @@ div .col {
   padding: 0;
 }
 
+/* WAY KAMBAS MINI EBONY STARTS HERE */
+
+.sect_2{
+  width: 100%;
+  height: 100vh;
+}
+.sect_2 .sect_2_container{
+  position: relative;
+  width: 74%;
+  height: 505px;
+  display: flex;
+  top: 5%;
+  left: 13%;
+  background: #25D6C440;
+  z-index: -1;
+}
+.sect_2_container .container_image{
+  position: absolute;
+  left: -15%;
+  width: 50%;
+  top: 1%;
+}
+.sect_2_container .container_content{
+  position: absolute;
+  left: 38%;
+  top: 5%;
+  padding-top: 20px;
+}
+.container_content .content_text1 .text-1{
+  font-family: taviraj;
+  font-size: 3.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+.container_content .line{
+  border-bottom: #333333 1px solid;
+  margin-top: 2.5rem;
+  margin-bottom: 5px;
+  width: 100px;
+
+}
+.container_content .content_text .text-2{
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: left;
+  padding-bottom: 30px;
+  color: #333333;
+}
+.content_text .text-3{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #333333;
+}
+.content_text .line-1{
+  border-bottom: #333333 1px solid;
+  margin-top: -10px;
+  margin-bottom: 25px;
+  width: 60px;
+
+}
+.content_box .box_container_1 .button3{
+  height: 62px;
+  width: 208px;
+  background: #096C62;
+  cursor: pointer;
+  border: transparent;
+  margin-top: 20px;
+}
+.box_container_1 .button3 a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px; 
+  line-height: 2;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.button3 a .fa-shopping-cart{
+  margin-right: 10px;
+  color: gainsboro;
+}
+.content_box .box_container_1 .button4{
+  height: 62px;
+  width: 140px;
+  border: 2px solid #096C62;
+  background: transparent;
+  margin-left: 15px;
+}
+.box_container_1 .button4 a{
+  text-decoration: none;
+  color: #096C62;
+  font-size: 25px;
+  font-weight: 600; 
+  line-height: 34px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-family: Nunito;
+}
+.button{
+  position: absolute;
+  left: 85%;
+  margin-top: 30px;
+  display: flex;
+}
+.button .button5{
+  height: 60px;
+  width: 60px;
+  border: 2px solid #096C62;
+  color: #096C62;
+  background: transparent;
+  font-size: 30px;
+}
+.button .button6{
+  height: 60px;
+  width: 60px;
+  border: 2px solid #096C62;
+  color: #FFFFFF;
+  background: #096C62;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+/* WAY KAMBAS MINI EBONY ENDS HERE */
+
+/* Non-Metal Starts here */
+
+.sect_3{
+  display: flex;
+  position: relative;
+  width: 70%;
+  left: 15%;
+  justify-content: space-between;
+}
+.sect_3 .sect_3_container{
+  display: flex;
+  width: 60%;
+  height: 270px;
+  box-shadow: 0px 2px 2px 0px rgb(0, 0, 0, 0.2);
+  margin-right: 30px;
+  background: #FFFFFF;
+}
+.sect_3_container .text-4{
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.sect_3_container .div-1{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.sect_3_container .div-1 .text-5{
+  font-family: Nunito;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #777777;
+}
+.sect_3_container .non_logo{
+  position: absolute;
+  top: 35%;
+  left: 27%;
+}
+.sect_3_container .lines{
+  margin-top: 30px;
+}
+.sect_3_container .lines_1{
+  margin-top: 40px;
+}
+.sect_3_container .text-3{
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #333333;
+}
+.sect_3_container .line-1{
+  border-bottom: #333333 1px solid;
+  margin-top: -5px;
+  margin-bottom: 25px;
+  width: 80px;
+}
+/* Non-metal Ends Here */
+
 #why-choose-us > .my_container,
 footer > .my_container {
   display: flex;
