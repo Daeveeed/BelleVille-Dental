@@ -1,4 +1,10 @@
+::-webkit-scrollbar {
+  display: none;
+}
 
+* {
+  font-family: "Taviraj", serif;
+}
 
 nav {
   position: relative;
@@ -10,7 +16,6 @@ nav {
   border-radius: 0;
   margin-bottom: 0;
   font-size: 16px;
-  font-family: 'Taviraj', serif;
   padding: 10px 50px 10px 20px;
 }
 
@@ -23,14 +28,12 @@ nav {
 }
 
 .nav-link:hover {
-  border-bottom: 3px solid #096C62;
+  border-bottom: 3px solid #096c62;
 }
 
-
-
-/* .dropdown-menu:hover {
+.dropdown-menu:hover {
   opacity: 1;
-} */
+}
 
 .dropdown-menu {
   opacity: 0;
@@ -47,8 +50,6 @@ nav {
   border-radius: 0;
   border: 0;
   pointer-events: none;
-
-  
 }
 
 .nav-item:hover .dropdown-menu {
@@ -80,40 +81,43 @@ nav {
 }
 .options li a:hover {
   font-size: 1.2rem;
-  color: #096C62;
+  color: #096c62;
 }
-
 
 div .col {
   padding: 0;
 }
 
-
-
-@import url("https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
-
-::-webkit-scrollbar {
-  display: none;
-}
-
-html {
-  font-family: "Taviraj", serif;
-}
-
-#why-choose-us > .container,
-footer > .container {
+#why-choose-us > .my_container,
+footer > .my_container {
   display: flex;
   padding: 60px 0;
 }
 
-.container {
+.my_container {
   margin: auto;
   position: relative;
+  justify-content: space-evenly;
 }
 
 .image {
   position: relative;
   width: 50%;
+  transform: translatex(20%);
+  z-index: -1;
+  margin-top: 70px;
+}
+
+.image svg {
+  position: absolute;
+  top: -37%;
+}
+
+.image svg:nth-child(2) {
+  top: -22%;
+}
+.image svg:nth-child(3) {
+  top: -7%;
 }
 
 .image div {
@@ -128,9 +132,10 @@ footer > .container {
   height: 100%;
 }
 
-.image div:first-child {
+.image div:nth-child(2) {
   top: 20%;
   left: 15%;
+  box-shadow: 2px 3px 5px 2px;
 }
 
 .bg {
@@ -145,6 +150,7 @@ footer > .container {
   font-size: 14px;
   width: 40%;
   margin: auto;
+  transform: translatex(-20%);
 }
 
 .write-up h2 {
@@ -159,7 +165,7 @@ footer > .container {
   display: none;
   -webkit-transition: 0.6s ease-in-out left;
   -o-transition: 0.6s ease-in-out left;
-  transition: 0.6s ease-in-out left; 
+  transition: 0.6s ease-in-out left;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
@@ -220,6 +226,7 @@ footer > .container {
   position: absolute;
   bottom: 0;
   left: 9%;
+  padding: 0 30px;
   font-size: 20px;
   color: #070707;
   text-align: center;
@@ -227,14 +234,6 @@ footer > .container {
   background-color: rgba(0, 0, 0, 0);
   filter: alpha(opacity=50);
   opacity: 0.5;
-}
-
-.left {
-  margin-left: -20px;
-}
-
-.right {
-  margin-left: 20px;
 }
 
 .sr-only {
@@ -264,7 +263,8 @@ footer > .container {
 .carousel-control:focus,
 .carousel-control:hover {
   font-size: xx-large;
-  transform: translateY(12px);
+  transform: translateY(10px);
+  color: #000;
   text-decoration: none;
   outline: 0;
   filter: alpha(opacity=90);
@@ -275,9 +275,7 @@ footer > .container {
   position: absolute;
   bottom: -20%;
   left: 50%;
-  z-index: 15;
   width: 60%;
-  padding-left: 0;
   margin-left: -30%;
   text-align: center;
   list-style: none;
@@ -288,7 +286,6 @@ footer > .container {
   width: 6px;
   height: 6px;
   margin: 1px;
-  text-indent: -999px;
   cursor: pointer;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0);
@@ -349,42 +346,49 @@ footer > .container {
   background: #096c62;
   color: #dadada;
   line-height: 1.6;
-  font-size: 14px;
-  justify-content: space-evenly;
+  overflow: hidden;
 }
 
-.col-2 i {
+.footer-container svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-col  p span{
+  z-index: 6; 
+}
+
+.footer-container svg:last-child {
+  bottom: -7%;
+}
+
+.footer-col h4 {
+  position: relative;
+}
+
+.footer-col-2 i {
   color: #096c62;
   background: #dadada;
   padding: 2px 7px;
   border-radius: 50%;
 }
 
-.col img {
-  width: 200px;
-  transform: translate(-27px, 8px);
-}
-
-.col h4 {
-  position: relative;
-  letter-spacing: 2px;
-}
-
-.col-2 span {
+.footer-col-2 span {
   margin-right: 30px;
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
 
-.col-2 div {
+.footer-col-2 div {
   display: flex;
   flex-direction: row;
   gap: 5px;
 }
 
-.col-3 a,
-.col-4 a {
+.footer-col-3 a,
+.footer-col-4 a {
   display: flex;
   flex-direction: column;
   color: white;
@@ -393,7 +397,8 @@ footer > .container {
 
 .line {
   position: absolute;
-  bottom: -30%;
-  width: 25%;
-  max-width: 60px;
+  top: 50%;
+  width: 30%;
+  max-width: 100px;
+  border-top: 2px solid;
 }
