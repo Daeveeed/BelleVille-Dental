@@ -90,33 +90,33 @@ div .col {
 
 /* WAY KAMBAS MINI EBONY STARTS HERE */
 
-.sect_2{
+.sect_2 {
   width: 100%;
   height: 100vh;
 }
-.sect_2 .sect_2_container{
+.sect_2 .sect_2_container {
   position: relative;
   width: 74%;
   height: 505px;
   display: flex;
   top: 5%;
   left: 13%;
-  background: #25D6C440;
+  background: #25d6c440;
   z-index: -1;
 }
-.sect_2_container .container_image{
+.sect_2_container .container_image {
   position: absolute;
   left: -15%;
   width: 50%;
   top: 1%;
 }
-.sect_2_container .container_content{
+.sect_2_container .container_content {
   position: absolute;
   left: 38%;
   top: 5%;
   padding-top: 20px;
 }
-.container_content .content_text1 .text-1{
+.container_content .content_text1 .text-1 {
   font-family: taviraj;
   font-size: 3.5rem;
   font-weight: 200;
@@ -124,14 +124,13 @@ div .col {
   letter-spacing: 0.02em;
   color: #333333;
 }
-.container_content .line{
+.container_content .line {
   border-bottom: #333333 1px solid;
   margin-top: 2.5rem;
   margin-bottom: 5px;
   width: 100px;
-
 }
-.container_content .content_text .text-2{
+.container_content .content_text .text-2 {
   font-size: 15px;
   font-weight: 100;
   line-height: 1.5;
@@ -140,7 +139,7 @@ div .col {
   padding-bottom: 30px;
   color: #333333;
 }
-.content_text .text-3{
+.content_text .text-3 {
   font-size: 16px;
   font-weight: 600;
   line-height: 27px;
@@ -148,70 +147,69 @@ div .col {
   text-align: left;
   color: #333333;
 }
-.content_text .line-1{
+.content_text .line-1 {
   border-bottom: #333333 1px solid;
   margin-top: -10px;
   margin-bottom: 25px;
   width: 60px;
-
 }
-.content_box .box_container_1 .button3{
+.content_box .box_container_1 .button3 {
   height: 62px;
   width: 208px;
-  background: #096C62;
+  background: #096c62;
   cursor: pointer;
   border: transparent;
   margin-top: 20px;
 }
-.box_container_1 .button3 a{
+.box_container_1 .button3 a {
   text-decoration: none;
-  color: #FFFFFF;
-  font-size: 20px; 
+  color: #ffffff;
+  font-size: 20px;
   line-height: 2;
   letter-spacing: 0.02em;
   text-align: left;
 }
-.button3 a .fa-shopping-cart{
+.button3 a .fa-shopping-cart {
   margin-right: 10px;
   color: gainsboro;
 }
-.content_box .box_container_1 .button4{
+.content_box .box_container_1 .button4 {
   height: 62px;
   width: 140px;
-  border: 2px solid #096C62;
+  border: 2px solid #096c62;
   background: transparent;
   margin-left: 15px;
 }
-.box_container_1 .button4 a{
+.box_container_1 .button4 a {
   text-decoration: none;
-  color: #096C62;
+  color: #096c62;
   font-size: 25px;
-  font-weight: 600; 
+  font-weight: 600;
   line-height: 34px;
   letter-spacing: 0.02em;
   text-align: left;
   font-family: Nunito;
 }
-.button{
+.button {
   position: absolute;
   left: 85%;
   margin-top: 30px;
   display: flex;
 }
-.button .button5{
+.button .button5 {
   height: 60px;
   width: 60px;
-  border: 2px solid #096C62;
-  color: #096C62;
+  border: 2px solid #096c62;
+  color: #096c62;
   background: transparent;
   font-size: 30px;
 }
-.button .button6{
+.button .button6 {
   height: 60px;
   width: 60px;
-  border: 2px solid #096C62;
-  color: #FFFFFF;
-  background: #096C62;
+  border: 2px solid #096c62;
+  color: #ffffff;
+  background: #096c62;
   font-size: 30px;
   margin-left: 15px;
 }
@@ -220,31 +218,31 @@ div .col {
 
 /* Non-Metal Starts here */
 
-.sect_3{
+.sect_3 {
   display: flex;
   position: relative;
   width: 70%;
   left: 15%;
   justify-content: space-between;
 }
-.sect_3 .sect_3_container{
+.sect_3 .sect_3_container {
   display: flex;
   width: 60%;
   height: 270px;
   box-shadow: 0px 2px 2px 0px rgb(0, 0, 0, 0.2);
   margin-right: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
-.sect_3_container .text-4{
+.sect_3_container .text-4 {
   font-size: 18px;
   font-weight: 400;
   padding-bottom: 15px;
 }
-.sect_3_container .div-1{
+.sect_3_container .div-1 {
   margin-top: 30px;
   margin-left: 20px;
 }
-.sect_3_container .div-1 .text-5{
+.sect_3_container .div-1 .text-5 {
   font-family: Nunito;
   font-size: 13px;
   font-weight: 400;
@@ -253,18 +251,18 @@ div .col {
   text-align: left;
   color: #777777;
 }
-.sect_3_container .non_logo{
+.sect_3_container .non_logo {
   position: absolute;
   top: 35%;
   left: 27%;
 }
-.sect_3_container .lines{
+.sect_3_container .lines {
   margin-top: 30px;
 }
-.sect_3_container .lines_1{
+.sect_3_container .lines_1 {
   margin-top: 40px;
 }
-.sect_3_container .text-3{
+.sect_3_container .text-3 {
   font-size: 13px;
   font-weight: 600;
   line-height: 27px;
@@ -272,7 +270,7 @@ div .col {
   text-align: left;
   color: #333333;
 }
-.sect_3_container .line-1{
+.sect_3_container .line-1 {
   border-bottom: #333333 1px solid;
   margin-top: -5px;
   margin-bottom: 25px;
@@ -280,79 +278,23 @@ div .col {
 }
 /* Non-metal Ends Here */
 
+/* GENERAL CSS FOR THE FOOTER ABOUT US AND TESTIMONIALS */
 #why-choose-us > .my_container,
 footer > .my_container {
   display: flex;
-  padding: 60px 0;
 }
 
 .my_container {
   margin: auto;
   position: relative;
+  padding: 60px 30px;
   justify-content: space-evenly;
 }
 
-.image {
-  position: relative;
-  width: 50%;
-  transform: translatex(20%);
-  z-index: -1;
-  margin-top: 70px;
-}
-
-.image svg {
-  position: absolute;
-  top: -37%;
-}
-
-.image svg:nth-child(2) {
-  top: -22%;
-}
-.image svg:nth-child(3) {
-  top: -7%;
-}
-
-.image div {
-  position: absolute;
-  width: 50%;
-  height: 70%;
-  bottom: 0;
-}
-
-.image img {
-  width: 100%;
-  height: 100%;
-}
-
-.image div:nth-child(2) {
-  top: 20%;
-  left: 15%;
-  box-shadow: 2px 3px 5px 2px;
-}
-
-.bg {
-  top: 0;
-  width: 250px;
-  height: 150px;
-  z-index: -1;
-  background: #25d6c440;
-}
-
-.write-up {
-  font-size: 14px;
-  width: 40%;
-  margin: auto;
-  transform: translatex(-20%);
-}
-
-.write-up h2 {
-  position: relative;
-  left: 0;
-}
-
+/* CAROUSEL CSS */
 .carousel-inner > .item {
-  width: 100%;
-  height: 320px;
+  height: 270px;
+  min-height: max-content;
   position: relative;
   display: none;
   -webkit-transition: 0.6s ease-in-out left;
@@ -416,9 +358,8 @@ footer > .my_container {
 
 .carousel-control {
   position: absolute;
-  bottom: 0;
-  left: 9%;
-  padding: 0 30px;
+  bottom: -15%;
+  left: 10%;
   font-size: 20px;
   color: #070707;
   text-align: center;
@@ -492,6 +433,84 @@ footer > .my_container {
   background-color: #000000;
 }
 
+/* TESTOMONIALS SECTION */
+
+.image {
+  position: relative;
+  width: 50%;
+  transform: translatex(20%);
+  z-index: -1;
+}
+
+.image > span {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.image svg {
+  transform: translate(-15%);
+}
+
+.image svg:nth-child(2) {
+  transform: translate(-15%, -50%);
+  top: -22%;
+}
+
+.image svg:nth-child(3) {
+  transform: translate(-15%, -100%);
+}
+
+.image div {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  bottom: 0;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.image div:nth-child(2) {
+  top: 20%;
+  left: 15%;
+}
+
+.bg {
+  top: 0;
+  width: 250px;
+  height: 150px;
+  z-index: -1;
+  background: #25d6c440;
+}
+
+.write-up {
+  font-size: 14px;
+  width: 40%;
+  margin: auto;
+  transform: translatex(-20%);
+}
+
+.write-up h2 {
+  position: relative;
+  left: 0;
+}
+/* ABOUT US SECTION */
+
+#why-choose-us .my_container {
+  justify-content: space-evenly;
+  gap: 5%;
+}
+
+.light-green {
+  color: #45aa35;
+}
+
 .side-text {
   font-size: 27px;
 }
@@ -499,20 +518,11 @@ footer > .my_container {
 .side-text button {
   background: #028174;
   color: #dadada;
-  padding: 10px 25px;
+  padding: 5% 15%;
   border: none;
   border-radius: 20px;
-  font-size: 10px;
+  font-size: 0.8rem;
   cursor: pointer;
-}
-
-.light-green {
-  color: #45aa35;
-}
-
-#why-choose-us .container {
-  justify-content: space-evenly;
-  gap: 30px;
 }
 
 .why-choose-us-cards-container {
@@ -534,25 +544,43 @@ footer > .my_container {
   width: 50px;
 }
 
+/* FOOTER */
+
 .footer-container {
+  position: relative;
   background: #096c62;
   color: #dadada;
   line-height: 1.6;
   overflow: hidden;
 }
 
-.footer-container svg {
+.footer-container > span {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.footer-container > span:first-of-type {
   bottom: 0;
   left: 0;
 }
 
-.footer-col  p span{
-  z-index: 6; 
+.footer-container > span:last-of-type {
+  top: 0;
+  right: 0;
 }
 
-.footer-container svg:last-child {
-  bottom: -7%;
+.footer-container > span:first-of-type svg:first-of-type {
+  transform: translateY(50%);
+}
+
+.footer-container > span:last-of-type svg:last-of-type {
+  transform: translateY(-55%);
+}
+
+.footer-col {
+  z-index: 2;
 }
 
 .footer-col h4 {
