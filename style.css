@@ -811,3 +811,140 @@ div .col {
 .team-item:hover .team-social {
   top: 0;
 }
+
+
+
+.dental-product{
+  margin-top: 4%;
+  margin-left: 10%;
+}
+.dental-product hr{
+  margin-top: -0.3rem;
+  width: 9%;
+}
+.dental-product h3{
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+/* Dental supplies */
+.product{
+  padding-top: 2%;
+  display: flex;
+  position: relative;
+  left: 10%;
+}
+.product-box{
+  margin-top: 2%;
+  background-color: #f9f9f9;
+  margin-right: 45px;
+  width: 15%;
+  padding-top: 100px;
+  box-shadow: 0px 2px 2px 0px rgb(0, 0, 0, 0.2);
+  transition-duration: 0.5s;
+}
+.product-box:hover{
+  transform: scale(1.1);
+}
+.product-box:hover .product-cart{
+  opacity: 1;
+}
+.product-box:hover #product-like{
+  opacity: 1;
+}
+.product-image{
+  margin-top: -80%;
+  width: 150px;
+  height: 180px;
+  background: transparent;
+  padding-bottom: 2rem;
+  padding-left: 35px;
+}
+.product-box h5{
+  background-color: transparent;
+  font-size: 1em;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.product-box p{
+  background-color: transparent;
+  font-size: 0.8em;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.product-box i{
+  background-color: transparent;
+  font-size: 0.8em;
+  padding-left: 10%;
+}
+#product-like{
+  border: 2px solid #6bdbc9;
+  padding: 0.1rem;
+  margin: 1rem 0rem 0.5rem 1rem;
+  color: #6bdbc9;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+.product-cart{
+  position: relative;;
+  bottom: 1%;
+  background-color: #096c62;
+  color: #ffffff;
+  border: none;
+  width: 100px;
+  padding: 0.2rem;
+  font-size: 0.9rem;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+
+/* Recommended Topics */
+.topics{
+  margin-top: 3%;
+  width: 100%;
+  height: 200%;
+  display: flex;
+}
+.topic-txt{
+  height: inherit;
+  width: 30%;
+}
+.topic-txt hr{
+  width: 40%;
+}
+.topic-txt p{
+  padding-top: 40%;
+}
+.topic-txt h5{
+  padding-top: 4%;
+  font-weight: 400;
+  font-size: 32px;
+}
+.topics img{
+  background: transparent;
+  position: relative;
+  top: 5%;
+  right: 32%;
+  z-index: 1;
+  width: 90%;
+  height: 105%;
+}
+.topic-image{
+  position: absolute;
+  top: 270%;
+  left: 55%;
+  height: 40%;
+  width: 30%;
+  background-color: #c0ece7;
+}
+.topic-button{
+  padding: 4%;
+  text-align: center;
+  place-items: center;
+  border: 2px solid #7EAFAA;
+  color: #7EAFAA;
+  height: 3.5rem;
+  width: 60%;
+}
