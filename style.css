@@ -42,6 +42,11 @@ nav {
 
 .nav-link:hover {
   border-bottom: 3px solid #096c62;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #096c62;
 }
 
 .dropdown-menu:hover {
@@ -287,6 +292,8 @@ nav ul li ul li a:hover {
     display: block !important;
   }
 }
+
+/* Mobile Nav Bar Ends here */
 
 
 
