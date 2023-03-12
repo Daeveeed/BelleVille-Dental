@@ -764,21 +764,6 @@ nav ul li ul li a:hover {
   color: #45aa35;
 }
 
-.side-text {
-  width: 30%;
-  font-size: 2rem;
-}
-
-.side-text button {
-  background: #028174;
-  color: #dadada;
-  padding: 5% 15%;
-  border: none;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  cursor: pointer;
-}
-
 .about-us-cards-container {
   display: grid;
   margin: auto;
@@ -891,12 +876,6 @@ nav ul li ul li a:hover {
   width: 30%;
   max-width: 100px;
   border-top: 2px solid;
-}
-
-@media screen and (max-width: 700px) {
-  .side-text {
-    display: none;
-  }
 }
 
 /********** Isaac CSS **********/
