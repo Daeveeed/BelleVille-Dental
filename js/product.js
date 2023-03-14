@@ -3,13 +3,14 @@
 const header = document.querySelector(".product_category");
 const options = document.getElementsByClassName("select-dropdown_options");
 const category = document.getElementById("category");
-const activeList = category.getElementsByClassName("active");
+const activeList = category.getElementsByClassName("active_page");
+console.log(activeList);
+
 const sort = document.getElementById("sort_query");
-const activeSort = sort.getElementsByClassName("active");
+const activeSort = sort.getElementsByClassName("active_page");
 const dropdown_caret = document.getElementsByClassName("caret");
 const lists = document.getElementsByClassName("options_list");
 const productsContainer = document.querySelector(".product_items_container");
-// const inputButton = document.getElementsByClassNamecon
 
 function createArray(collection) {
   return new Array(...collection);
@@ -27,7 +28,6 @@ const PFP = [
     avergage_stars: "0.0",
     number_of_reviews: "(0)",
     price: "55000",
-
     indicators: [],
   },
   {
@@ -234,11 +234,12 @@ function pageProduct(arr) {
 
 function renderPage() {
   header.textContent = activeList[0].innerHTML;
-  category.querySelector("input").value = activeList[0].innerText;
   sort.querySelector("input").value = activeSort[0].innerText;
-
+  category.querySelector("input").value = activeList[0].innerText;
   option.forEach((el) => {
-    if (el.querySelector("ul").lastElementChild.classList.contains("active")) {
+    if (
+      el.querySelector("ul").lastElementChild.classList.contains("active_page")
+    ) {
       el.querySelector(
         "ul"
       ).lastElementChild.previousElementSibling.style.borderRadius = "inherit";
@@ -258,8 +259,8 @@ function renderPage() {
 list.forEach((el) => {
   el.addEventListener("click", (e) => {
     e.preventDefault();
-    el.querySelector(".active").classList.remove("active");
-    e.target.classList.add("active");
+    el.querySelector(".active_page").classList.remove("active_page");
+    e.target.classList.add("active_page");
     renderPage();
   });
 });
