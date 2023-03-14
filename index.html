@@ -45,7 +45,7 @@
       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
     ></script>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
@@ -187,13 +187,20 @@
                 <div class="col">
                   <ul class="options">
                     <li>
-                      <a href="#">Shop all Products</a>
+                      <a
+                        href="./product.html"
+                        target="_blank"
+                        data-id="allProducts"
+                        >Shop all Products</a
+                      >
                     </li>
                     <li>
-                      <a href="#">Crest Kids Toothpastes</a>
+                      <a href="./product.html" data-id="CKT"
+                        >Crest Kids Toothpastes</a
+                      >
                     </li>
                     <li>
-                      <a href="#">Oral-B Products</a>
+                      <a href="./product.html" data-id="ORB">Oral-B Products</a>
                     </li>
                   </ul>
                 </div>
@@ -201,10 +208,12 @@
                 <div class="col">
                   <ul class="options">
                     <li>
-                      <a href="#">Premium Crest</a>
+                      <a href="./product.html" data-id="PC">Premium Crest</a>
                     </li>
                     <li>
-                      <a href="#">Products for Professionals</a>
+                      <a href="./product.html" data-id="PFP"
+                        >Products for Professionals</a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -299,19 +308,24 @@
               <a href="#!">Products</a>
               <ul class="nav-dropdown">
                 <li>
-                  <a href="#">Shop all Products</a>
+                  <a href="./product.html" data-id="allProducts"
+                    >Shop all Products</a
+                  >
                 </li>
                 <li>
-                  <a href="#">Crest Kids Toothpastes</a>
+                  <a href="./product.html" data-id="CKT">Crest Kids Toothpastes</a
+                  >
                 </li>
                 <li>
-                  <a href="#">Oral-B Products</a>
+                  <a href="./product.html" data-id="OBP">Oral-B Products</a>
                 </li>
                 <li>
-                  <a href="#">Premium Crest</a>
+                  <a href="./product.html" data-id="PC">Premium Crest</a>
                 </li>
                 <li>
-                  <a href="#">Products for Professionals</a>
+                  <a href="./product.html" data-id="PFP"
+                    >Products for Professionals</a
+                  >
                 </li>
               </ul>
             </li>
@@ -1085,6 +1099,6 @@
       integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
       crossorigin="anonymous"
     ></script>
-    <script src="js/nav.js"></script>
+    <script type="module" src="./js/nav.js"></script>
   </body>
 </html>

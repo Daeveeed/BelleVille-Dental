@@ -44,10 +44,11 @@
       defer
       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
     ></script>
-    <script defer src="./js/nav.js"></script>
-    <script defer src="./js/product.js"></script>
+    <script defer type="module" src="./js/nav.js"></script>
+    <script defe src="./js/product.js"></script>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/product.css" />
   </head>
 
   <body>
@@ -189,13 +190,20 @@
                 <div class="col">
                   <ul class="options">
                     <li>
-                      <a href="#">Shop all Products</a>
+                      <a
+                        href="./product.html"
+                        target="_blank"
+                        data-id="allProducts"
+                        >Shop all Products</a
+                      >
                     </li>
                     <li>
-                      <a href="#">Crest Kids Toothpastes</a>
+                      <a href="./product.html" data-id="CKT"
+                        >Crest Kids Toothpastes</a
+                      >
                     </li>
                     <li>
-                      <a href="#">Oral-B Products</a>
+                      <a href="./product.html" data-id="ORB">Oral-B Products</a>
                     </li>
                   </ul>
                 </div>
@@ -203,10 +211,12 @@
                 <div class="col">
                   <ul class="options">
                     <li>
-                      <a href="#">Premium Crest</a>
+                      <a href="./product.html" data-id="PC">Premium Crest</a>
                     </li>
                     <li>
-                      <a href="#">Products for Professionals</a>
+                      <a href="./product.html" data-id="PFP"
+                        >Products for Professionals</a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -218,6 +228,7 @@
     </nav>
 
     <!-- Mobile View Of NavBar -->
+
     <section class="navigation">
       <div class="nav-container">
         <div class="brand">
@@ -300,19 +311,25 @@
               <a href="#!">Products</a>
               <ul class="nav-dropdown">
                 <li>
-                  <a href="#">Shop all Products</a>
+                  <a href="./product.html" data-id="allProducts"
+                    >Shop all Products</a
+                  >
                 </li>
                 <li>
-                  <a href="#">Crest Kids Toothpastes</a>
+                  <a href="./product.html" data-id="CKT"
+                    >Crest Kids Toothpastes</a
+                  >
                 </li>
                 <li>
-                  <a href="#">Oral-B Products</a>
+                  <a href="./product.html" data-id="OBP">Oral-B Products</a>
                 </li>
                 <li>
-                  <a href="#">Premium Crest</a>
+                  <a href="./product.html" data-id="PC">Premium Crest</a>
                 </li>
                 <li>
-                  <a href="#">Products for Professionals</a>
+                  <a href="./product.html" data-id="PFP"
+                    >Products for Professionals</a
+                  >
                 </li>
               </ul>
             </li>
@@ -332,12 +349,17 @@
                 class="select-dropdown"
                 type="text"
                 readonly="true"
-                data-target="active"
+                data-target="active_page"
               />
               <i class="bi bi-caret-down-fill caret"></i>
             </div>
+            <!-- prettier-ignore -->
             <ul class="options_list">
-              <li class="option-1 active" tabindex="0" data-id="allProducts">All Products
+              <li
+                class="option-1"
+                tabindex="0"
+                data-id="allProducts"
+              >All Products
               </li>
               <li class="option-2" tabindex="0" data-id="CKT">Crest Kids Toothpaste
               </li>
@@ -356,12 +378,13 @@
                 class="select-dropdown"
                 type="text"
                 readonly="true"
-                data-target="active"
+                data-target="active_page"
               />
               <i class="bi bi-caret-down-fill caret"></i>
             </div>
+            <!-- prettier-ignore -->
             <ul class="options_list">
-              <li class="option-1 active" data-id="AZ" tabindex="0">Name (A - Z)
+              <li class="option-1" data-id="AZ" tabindex="0">Name (A - Z)
               </li>
               <li class="option-2" data-id="ZA" tabindex="0">Name (Z - A)</li>
               <li class="option-3" data-id="HL" tabindex="0">Price (High to Low)
@@ -382,8 +405,7 @@
           </div>
         </div>
 
-        <div class="product_items_container">
-        </div>
+        <div class="product_items_container"></div>
       </div>
     </section>
 
@@ -445,7 +467,6 @@
             Useful Links
             <hr class="line" />
           </h4>
-
           <a href=""> Warranty & Complaints </a>
           <a href=""> Order & Shipping </a>
           <a href=""> Tracking Order </a>
